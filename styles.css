@@ -138,7 +138,10 @@ body {
 /* Projects Section */
 .project-item {
     margin-bottom: 40px;
-    text-align: center;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 16px;
 }
 
 .project-title {
@@ -154,6 +157,37 @@ body {
     color: #000;
     max-width: 600px;
     margin: 0 auto;
+}
+
+.project-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-icon {
+    width: 72px;
+    height: 72px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+/* Project Link Wrapper */
+.project-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.project-link:hover .project-title {
+    text-decoration: underline;
+}
+
+/* Project Video */
+.project-video {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 8px;
+    margin-top: 20px;
 }
 
 /* Contact Section */
