@@ -14,6 +14,31 @@
             text-decoration: underline;
             color: #000;
         }
+        .project-role {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 16px;
+            font-weight: 500;
+        }
+        .project-tech-details {
+            background: white;
+            padding: 24px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-top: 24px;
+            text-align: left;
+        }
+        .project-tech-details h3 {
+            color: #333;
+            margin-bottom: 16px;
+            font-size: 18px;
+        }
+        .tech-list p {
+            color: #555;
+            margin-bottom: 4px;
+            line-height: 1.5;
+            font-size: 14px;
+        }
     </style>
     </head>
 <body>
@@ -29,7 +54,19 @@
     <section class="projects" style="padding-top: 100px;">
         <div class="container">
             <h2 class="section-heading">By The Blade</h2>
+            <p class="project-role">Unity, Feb - Aug 2025 — Programmer</p>
             <p class="project-description">3D isometric hack-and-slash melee combat game, where players take on the role of a samurai trapped in a realm overtaken by ancient Japanese Yokai. The objective is to master the art of swordsmanship and find a way to escape.</p>
+            
+            <div class="project-tech-details">
+                <h3>Technical Contributions:</h3>
+                <div class="tech-list">
+                    <p>• Using animation layers to blend multiple animations into one to meet specific requirements.</p>
+                    <p>• Using Inverse Kinematics to improve interaction between player and enemies in the animation aspect.</p>
+                    <p>• Programmed two types of enemies using the GOAP AI system.</p>
+                    <p>• Designed final boss attack patterns and implemented them in the game.</p>
+                    <p>• Audio implementation.</p>
+                </div>
+            </div>
 
             <video class="project-video" controls>
                 <source src="PortfolioMaterial/Video1.mp4" type="video/mp4">
