@@ -39,6 +39,57 @@
             line-height: 1.5;
             font-size: 14px;
         }
+        .project-external-link {
+            display: inline-block;
+            margin-top: 24px;
+            padding: 12px 32px;
+            background: #000;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 500;
+            font-size: 16px;
+            transition: background 0.2s ease, transform 0.2s ease;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+        }
+        .project-external-link:hover {
+            background: #333;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+        .level-design-section {
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+        .level-design-section h3 {
+            color: #333;
+            margin-bottom: 24px;
+            font-size: 24px;
+            font-weight: 600;
+            text-align: left;
+        }
+        .level-design-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .level-design-image {
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            cursor: pointer;
+        }
+        .level-design-image:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+        }
+        @media (max-width: 768px) {
+            .level-design-gallery {
+                grid-template-columns: 1fr;
+            }
+        }
     </style>
     </head>
 <body>
@@ -67,6 +118,21 @@
                     <p>• Audio implementation.</p>
                 </div>
             </div>
+
+            <div class="level-design-section">
+                <h3>Level Design</h3>
+                <p class="project-description" style="margin-bottom: 20px;">Level design documentation and whitebox layouts showcasing the game's isometric city environment, enemy placement, and critical path progression.</p>
+                <div class="level-design-gallery">
+                    <img src="PortfolioMaterial/By The Blade 2d layout.png" alt="By The Blade 2D Level Layout" class="level-design-image">
+                    <img src="PortfolioMaterial/LD_whitebox.png" alt="Level Design Whitebox 1" class="level-design-image">
+                    <img src="PortfolioMaterial/LD_whitebox2.png" alt="Level Design Whitebox 2" class="level-design-image">
+                    <img src="PortfolioMaterial/LD_whitebox3.png" alt="Level Design Whitebox 3" class="level-design-image">
+                </div>
+            </div>
+
+            <a href="https://vfs-gdpg.itch.io/by-the-blade" target="_blank" rel="noopener noreferrer" class="project-external-link">
+                Play on itch.io →
+            </a>
 
             <video class="project-video" controls>
                 <source src="PortfolioMaterial/Video1.mp4" type="video/mp4">
