@@ -248,6 +248,34 @@ body {
     margin-top: 20px;
 }
 
+/* School Assignment Gallery */
+.school-assignment-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.school-assignment-image {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.school-assignment-header {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+@media (max-width: 768px) {
+    .school-assignment-gallery {
+        grid-template-columns: 1fr;
+    }
+}
+
 /* Contact Section */
 .contact-info {
     text-align: center;

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Assignment Projects - Portfolio</title>
+    <meta name="description" content="School Assignment Projects - Level design portfolio by Xwen Xie">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        .back-link {
+            text-decoration: underline;
+            color: #000;
+        }
+        .level-design-gallery {
+            margin-top: 40px;
+        }
+        .level-design-image {
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            margin-bottom: 24px;
+            display: block;
+        }
+        .level-design-image:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+        }
+        .level-design-section h3 {
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 24px;
+            font-weight: 600;
+            text-align: left;
+        }
+        .level-design-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 24px;
+        }
+        @media (max-width: 768px) {
+            .level-design-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Simple Back Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a class="back-link" href="index.html#projects">← Back to Projects</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="projects" style="padding-top: 100px;">
+        <div class="container">
+            <h2 class="section-heading">School Assignment Projects</h2>
+            
+            <div class="level-design-section">
+                <div class="level-design-grid">
+                    <img src="PortfolioMaterial/SchoolAssignment/SchoolAssignment_1.png" alt="School Assignment Level Design 1" class="level-design-image">
+                    <img src="PortfolioMaterial/SchoolAssignment/SchoolAssignment_2.png" alt="School Assignment Level Design 2" class="level-design-image">
+                    <img src="PortfolioMaterial/SchoolAssignment/SchoolAssignment_3.png" alt="School Assignment Level Design 3" class="level-design-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
