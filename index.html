@@ -39,11 +39,16 @@
         </div>
     </nav>
 
-    <!-- Header Section -->
+    <!-- Hero Section -->
     <section id="about" class="main-header">
         <div class="container">
-            <h1 class="main-name">WENYAN XIE</h1>
-            <h2 class="main-title">PROGRAMMER FOR VIDEO GAMES</h2>
+            <p class="eyebrow">Unity Developer · Game Programmer</p>
+            <h1 class="main-name">Wenyan<br><em>Xie.</em></h1>
+            <h2 class="main-title">Building responsive worlds, satisfying systems, and memorable player moments.</h2>
+            <div class="hero-actions">
+                <a href="#projects" class="button button-primary">Explore my work <span>↓</span></a>
+                <a href="PortfolioMaterial/Resume_Wenyan.pdf" target="_blank" rel="noopener noreferrer" class="button button-secondary">View resume <span>↗</span></a>
+            </div>
         </div>
     </section>
 
@@ -52,7 +57,11 @@
         <div class="container">
             <h2 class="section-heading">About Me</h2>
             <div class="about-content">
-                <p>Video Game Enthusiast and Unity developer, thrives on continuous growth and embraces a lifelong mindset in both technical and creative challenges. On a personal note, I love to cook, play video games, attend game jam with my friends, and I have two corgis.</p>
+                <p>I’m a Unity developer who enjoys translating creative ideas into polished, playable systems. I bring curiosity to technical challenges—from AI and animation to player interaction—and keep growing through game jams, collaboration, and building games.</p>
+                <p class="about-note">Away from the editor, I’m usually cooking, playing games, joining a game jam with friends, or spending time with my two corgis.</p>
+                <div class="skill-list" aria-label="Core skills">
+                    <span>Unity</span><span>Gameplay systems</span><span>AI</span><span>Level design</span><span>VR</span>
+                </div>
             </div>
         </div>
     </section>
@@ -60,48 +69,51 @@
     <!-- Projects Section -->
     <section id="projects" class="projects">
         <div class="container">
-            <h2 class="section-heading">Projects</h2>
+            <div class="section-intro">
+                <p class="eyebrow">Selected work</p>
+                <h2 class="section-heading">Games I’ve helped bring to life.</h2>
+            </div>
             
 			<a href="by-the-blade.html" class="project-link">
 				<div class="project-item">
-					<img class="project-icon" src="PortfolioMaterial/ICON_FINAL.jpg" alt="By The Blade icon">
+					<div class="project-visual"><img class="project-icon" src="PortfolioMaterial/ICON_FINAL.jpg" alt="By The Blade icon"></div>
 					<div class="project-content">
+						<p class="project-index">01 / Featured project</p>
 						<h3 class="project-title">By The Blade</h3>
 						<p class="project-role">Unity, Feb - Aug 2025 — Programmer</p>
 						<p class="project-description">3D isometric hack-and-slash melee combat game, where players take on the role of a samurai trapped in a realm overtaken by ancient Japanese Yokai. The objective is to master the art of swordsmanship and find a way to escape.</p>
 						<div class="project-tech-details">
-							<p>• Using animation layers to blend multiple animations into one to meet specific requirements.</p>
-							<p>• Using Inverse Kinematics to improve interaction between player and enemies in the animation aspect.</p>
-							<p>• Programmed two types of enemies using the GOAP AI system.</p>
-                            <p>• Designed final boss attack patterns and implemented them in the game.</p>
-                            <p>• Collaborated with the level designer to implement the level design, designed the second level.</p>
-                            <p>• Audio implementation.</p>
+							<span>Animation systems</span><span>GOAP AI</span><span>Boss design</span><span>Level design</span>
 						</div>
+						<span class="project-arrow" aria-hidden="true">↗</span>
 					</div>
 				</div>
 			</a>
 
 			<a href="only-the-shadow-knows.html" class="project-link">
 				<div class="project-item">
-					<img class="project-icon" src="PortfolioMaterial/OnlyTheShadowKnows_Icon.png" alt="Only the Shadow Knows icon">
+					<div class="project-visual"><img class="project-icon" src="PortfolioMaterial/OnlyTheShadowKnows_Icon.png" alt="Only the Shadow Knows icon"></div>
 					<div class="project-content">
+						<p class="project-index">02 / Award-winning VR</p>
 						<h3 class="project-title">Only the Shadow Knows [VR, Unity China Developer Competition Winner]</h3>
 						<p class="project-role">Unity, Jun 2025 - Present — Level Designer & Programmer</p>
 						<p class="project-description">VR puzzle adventure game that won the Unity China Developer Competition, featuring immersive gameplay mechanics and interactive storytelling.</p>
 						<div class="project-tech-details">
-							<p>• Developed main gameplay mechanics, including quest manager, puzzle checking, locomotion, etc.</p>
-							<p>• Game UI including main menu and character dialogue.</p>
-							<p>• Performance optimization.</p>
+							<span>Quest systems</span><span>VR locomotion</span><span>UI</span><span>Optimization</span>
 						</div>
+						<span class="project-arrow" aria-hidden="true">↗</span>
 					</div>
 				</div>
 			</a>
 
 			<a href="school-assignment-projects.html" class="project-link">
 				<div class="project-item">
-					<img class="project-icon" src="PortfolioMaterial/SchoolAssignment/SchoolAssignment_2.png" alt="School Assignment Projects icon">
-					<div class="project-content" style="text-align: center;">
-						<h3 class="project-title" style="text-align: center;"> School Assignment Projects</h3>
+					<div class="project-visual"><img class="project-icon" src="PortfolioMaterial/SchoolAssignment/SchoolAssignment_2.png" alt="School Assignment Projects icon"></div>
+					<div class="project-content">
+						<p class="project-index">03 / Foundations</p>
+						<h3 class="project-title">School Assignment Projects</h3>
+						<p class="project-description">A selection of level design, UI design, and iOS app projects.</p>
+						<span class="project-arrow" aria-hidden="true">↗</span>
 					</div>
 				</div>
 			</a>
@@ -111,9 +123,10 @@
     <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
-            <h2 class="section-heading">Contact</h2>
+            <p class="eyebrow">Let’s connect</p>
+            <h2 class="section-heading">Have a game in mind?</h2>
             <div class="contact-info">
-                <p class="contact-email">xwenx66@gmail.com</p>
+                <a href="mailto:xwenx66@gmail.com" class="contact-email">xwenx66@gmail.com</a>
                 <div class="contact-links">
                     <a href="https://www.linkedin.com/in/wenyan-xie-645497207/" target="_blank" class="contact-link">LinkedIn</a>
                     <a href="https://github.com/xwen66" target="_blank" class="contact-link">GitHub</a>
@@ -122,7 +135,7 @@
         </div>
     </section>
 
-
+    <footer class="footer"><div class="container"><span>© 2026 Wenyan Xie</span><span>Made for games and good ideas.</span></div></footer>
 
     <script src="script.js"></script>
 </body>
